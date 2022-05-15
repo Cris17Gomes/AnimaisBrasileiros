@@ -1,0 +1,97 @@
+/* reset */
+
+* {
+padding: 0px;
+margin: 0px;
+font-family: Helvetica;
+}
+body { 
+    background-color: rgb(113, 165, 162);
+}
+
+ /* cabeçalho */
+ h1, p, h2 {
+     text-align: center;
+ }
+ h1 {
+     margin-top: 40px;
+     margin-bottom: 20px;
+     color: rgb(89, 134, 89);
+     font-size: 10vh;
+     text-shadow: 2px 2px rgb(112, 114, 113);
+ }
+ h2 {
+     color: rgb(129, 133, 82);
+ }
+ p {
+     color: rgb(5, 5, 5);
+ }
+ /* galeria */
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+     text-align: center;
+ }
+ .cor-titulo {
+     color: rgb(10, 87, 10);
+     font-family: Arial;
+     font-weight: bold;
+ }
+ .card {
+     display: inline-block;
+     width: 200px;
+     margin: 25px;
+     border: 1px solid rgb(88, 90, 90);
+     background-color: rgb(191, 235, 202, 0.6);
+ }
+.card-image {
+    height: 200px;
+    background-size: cover;
+  
+}
+.card-1 .card-image {
+    background-image: url("./img/arara-azul.jpg");
+  
+}
+.card-2 .card-image {
+    background-image: url("./img/ariranha.jpg");
+}
+.card-3 .card-image {
+    background-image: url("./img/broto-cor-de-rosa.jpg");
+}
+.card-4 .card-image {
+    background-image: url("./img/capivara.jpg");
+}
+.card-5 .card-image {
+    background-image: url("./img/tucano.jpg");
+}
+.card-6 .card-image {
+    background-image: url("./img/mico-leão.jpg");
+}
+.card-7 .card-image {
+    background-image: url("./img/onça-pintada.jpg");
+}
+.card-8 .card-image {
+    background-image: url("./img/sucuri.jpg");
+}
+.btn {
+    display: block;
+    background-color: forestgreen;
+    color: rgb(191, 235, 202, 0.6);
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: rgb(194, 235, 175);
+    color: forestgreen;
+    border-color: forestgreen;
+}
+.card-description {
+    padding: 20px 10px;
+}
+
